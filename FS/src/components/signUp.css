@@ -1,0 +1,211 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0.6rem;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #3b3b98;
+}
+
+.logo i {
+    margin-right: 10px;
+    font-size: 2rem;
+    color: #3b3b98;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav ul li {
+    padding: 8px 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+nav ul li:hover {
+    color: #3b3b98;
+}
+
+button.login {
+    background: #3b3b98;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    transition: 0.3s;
+}
+
+button.login:hover {
+    background: #2e2e8c;
+}
+
+.container {
+    justify-content: center;
+}
+
+.container-head {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.Details {
+    justify-content: center;
+    margin-left: 10rem;
+}
+
+input {
+    width: 30%;
+    padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 17px;
+    border: 0;
+    font-size: 16px;
+    background-color: #eee;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+}
+
+button:hover {
+    border-radius: 5px;
+    background-color: #cccccc;
+    border: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+button:active {
+    color: red;
+}
+
+.submit-button {
+    padding: 10px 10px;
+}
+
+.submit-button button {
+    padding: 12px 12px;
+    background-color: #2e2e8c;
+    font-size: 18px;
+    width: 30%;
+    text-align: center;
+    color: #fff;
+}
+.submit-button1 button{
+    padding:8px 8px;
+    background-color: #3b3b98;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+ }
+ .submit-button1 button:hover{
+    background-color: #313189;
+ }
+
+.submit-button button:hover {
+    background-color: rgb(45, 45, 255);
+    cursor: pointer;
+}
+
+.already-account {
+    margin-left: 110px;
+    font-size: 16px;
+}
+
+.already-account:hover {
+    cursor: pointer;
+
+}
+
+.already-account a:active {
+    color: red;
+}
+
+@media (max-width:768px) {
+
+    nav {
+        padding: 0.7rem 0.7rem;
+        width: 100%;
+    }
+
+    nav ul {
+        gap: 8px;
+        margin-left: -30px;
+    }
+
+    .logo {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+
+    .logo i {
+        margin: 0;
+        font-size: .9rem;
+    }
+
+    nav ul li {
+        padding: 6px 7px;
+        margin-left: -10px;
+        font-size: 16x;
+    }
+
+    .container .Details {
+
+        margin-left: 70px;
+    }
+
+
+    input {
+        width: 200px;
+    }
+
+    .Details {
+        margin-left: 0;
+        padding: 7px 7px;
+        font-size: 15px;
+    }
+
+    .already-account {
+        margin-left: 20px;
+    }
+
+    .container .Details .submit-button {
+        margin-left: 30px;
+        width: 400px;
+    }
+}
